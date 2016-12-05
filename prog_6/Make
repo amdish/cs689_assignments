@@ -1,0 +1,4 @@
+#!/bin/csh
+
+set makefile = /home/cs689/src/Makefile
+/usr/bin/make -f $makefile $1 $2
